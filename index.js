@@ -12,8 +12,8 @@ function deleteFromDriverByKey(driver, key){
   delete newDriver[key]
   return newDriver
 }
-// destructivelyDeleteFromdriverByKey(driver, key){
-//   let newDriver = driver
-//   delete newDriver[key]
-//   return newDriver
-// }
+destructivelyDeleteFromdriverByKey(driver, key){
+  let newDriver = driver
+  delete newDriver[key]
+  return newDriver
+}
